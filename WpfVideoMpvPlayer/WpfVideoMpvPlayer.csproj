@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+	  <UseWindowsForms>true</UseWindowsForms>
+	  <PlatformTarget>x86</PlatformTarget>
+	  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Mpv.NET\**" />
+    <EmbeddedResource Remove="Mpv.NET\**" />
+    <None Remove="Mpv.NET\**" />
+    <Page Remove="Mpv.NET\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="Mpv.NET\Mpv.NET.csproj" />
+  </ItemGroup>
+
+</Project>
