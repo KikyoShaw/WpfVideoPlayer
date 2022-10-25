@@ -18,7 +18,7 @@ namespace WpfVideoPlayer
         public MainWindow()
         {
             InitializeComponent();
-            UrlTextBox.Text = @"https://v2l2j87anq2oou99rr2uk04ubrck78eyz.mobgslb.tbcache.com/v2.kwaicdn.com/upic/2022/09/30/12/BMjAyMjA5MzAxMjEyNDJfMjIxMjQ4ODIyNV84NTI5MzA3Mzg3MV8yXzM=_hd15_B2e9c58667813baf16b5acf3ac0f2eea1.mp4?pkey=AAUy6Ivcc6qSw-X4IOedF9s-9PvPohgSkIYeAoqTAetyknHsgtBO5tbMiQTODN2qZbIeSQ58RwpBBXkffjMN1QlVL7ghs7YwbMq8DpuHqexJ5S3B7VDpooEM3SUowYupJcE&tag=1-1666664696-unknown-0-uefdsqh8tx-95f1370695f6c57b&clientCacheKey=3xgtkejfdmn7a5k_hd15.mp4&di=3afe9535&bp=10004&tt=hd15&ss=vp&ali_redirect_ex_hot=66666800&ali_redirect_ex_beacon=1";
+            UrlTextBox.Text = @"https://v2.kwaicdn.com/upic/2022/09/30/12/BMjAyMjA5MzAxMjEyNDJfMjIxMjQ4ODIyNV84NTI5MzA3Mzg3MV8yXzM=_hd15_B2e9c58667813baf16b5acf3ac0f2eea1.mp4?pkey=AAXhc_e-EnF4H0GiBMdZePwU8P-6KUrYEQck8gYFHJN3dWHTX9e53UpCqaHMHGw5VqgL7mm3zFIifaWb5GnSS_8H3vC-7y2fS7gA08Qr-_q-nXpgJBbJchSZQ4CukMdm6Ok&tag=1-1666689207-unknown-0-3wkszwowoe-97998829cd9c57c6&clientCacheKey=3xgtkejfdmn7a5k_hd15.mp4&di=3afe9535&bp=10004&tt=hd15&ss=vp";
         }
 
         private void ButtonBase_OnClick(object sender, RoutedEventArgs e)

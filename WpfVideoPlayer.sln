@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfVideoVlcPlayer", "WpfVideoVlcPlayer\WpfVideoVlcPlayer.csproj", "{B8FB3599-5D88-46B6-A90D-D182189CC257}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfVideoMpvPlayer", "WpfVideoMpvPlayer\WpfVideoMpvPlayer.csproj", "{15CC809C-2C44-45E0-A537-A559D29DD798}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mpv.NET", "WpfVideoMpvPlayer\Mpv.NET\Mpv.NET.csproj", "{9EA893F5-C327-47FB-8C3F-9C47D26191C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfVideoVlcPlayer", "WpfVideoVlcPlayer\WpfVideoVlcPlayer.csproj", "{DFEC27A2-3767-4B52-A49F-0E9AA8539E4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B8FB3599-5D88-46B6-A90D-D182189CC257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B8FB3599-5D88-46B6-A90D-D182189CC257}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B8FB3599-5D88-46B6-A90D-D182189CC257}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B8FB3599-5D88-46B6-A90D-D182189CC257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15CC809C-2C44-45E0-A537-A559D29DD798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15CC809C-2C44-45E0-A537-A559D29DD798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15CC809C-2C44-45E0-A537-A559D29DD798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15CC809C-2C44-45E0-A537-A559D29DD798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EA893F5-C327-47FB-8C3F-9C47D26191C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EA893F5-C327-47FB-8C3F-9C47D26191C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EA893F5-C327-47FB-8C3F-9C47D26191C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EA893F5-C327-47FB-8C3F-9C47D26191C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFEC27A2-3767-4B52-A49F-0E9AA8539E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFEC27A2-3767-4B52-A49F-0E9AA8539E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFEC27A2-3767-4B52-A49F-0E9AA8539E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFEC27A2-3767-4B52-A49F-0E9AA8539E4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
