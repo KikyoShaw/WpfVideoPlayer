@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfVideoVlcPlayer", "WpfVid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfVideoFfmpegPlayer", "WpfVideoFfmpegPlayer\WpfVideoFfmpegPlayer.csproj", "{856CD5CB-6C03-4AF2-8905-977B5622116B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfVideoMediaPlayer", "WpfVideoMediaPlayer\WpfVideoMediaPlayer.csproj", "{49A19FAA-507E-447F-BF1F-413952EF49DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfVideoMediaElement", "WpfVideoMediaElement\WpfVideoMediaElement.csproj", "{916D2692-E566-4FDD-B96C-CA8F2783C4A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,22 @@ Global
 		{856CD5CB-6C03-4AF2-8905-977B5622116B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{856CD5CB-6C03-4AF2-8905-977B5622116B}.Release|x64.ActiveCfg = Release|x64
 		{856CD5CB-6C03-4AF2-8905-977B5622116B}.Release|x64.Build.0 = Release|x64
+		{49A19FAA-507E-447F-BF1F-413952EF49DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49A19FAA-507E-447F-BF1F-413952EF49DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49A19FAA-507E-447F-BF1F-413952EF49DA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{49A19FAA-507E-447F-BF1F-413952EF49DA}.Debug|x64.Build.0 = Debug|Any CPU
+		{49A19FAA-507E-447F-BF1F-413952EF49DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49A19FAA-507E-447F-BF1F-413952EF49DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49A19FAA-507E-447F-BF1F-413952EF49DA}.Release|x64.ActiveCfg = Release|Any CPU
+		{49A19FAA-507E-447F-BF1F-413952EF49DA}.Release|x64.Build.0 = Release|Any CPU
+		{916D2692-E566-4FDD-B96C-CA8F2783C4A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916D2692-E566-4FDD-B96C-CA8F2783C4A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916D2692-E566-4FDD-B96C-CA8F2783C4A9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{916D2692-E566-4FDD-B96C-CA8F2783C4A9}.Debug|x64.Build.0 = Debug|Any CPU
+		{916D2692-E566-4FDD-B96C-CA8F2783C4A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916D2692-E566-4FDD-B96C-CA8F2783C4A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{916D2692-E566-4FDD-B96C-CA8F2783C4A9}.Release|x64.ActiveCfg = Release|Any CPU
+		{916D2692-E566-4FDD-B96C-CA8F2783C4A9}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
