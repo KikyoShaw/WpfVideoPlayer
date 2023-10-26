@@ -27,6 +27,8 @@ namespace WpfVideoMpvPlayer
         private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
         {
             var text = UrlTextBox.Text;
+            //var text = @"E:\shaw\demo\WPF-demo\ImageFileType\ImageFileType\test-images\Gif\kumin.gif";
+            //var text = @"D:\WXWork\16888554\Cache\File\2022-08\1111.webp";
             if (!string.IsNullOrEmpty(text))
             {
                 if (_player.IsPlaying)

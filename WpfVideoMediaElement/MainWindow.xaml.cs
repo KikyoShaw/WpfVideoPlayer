@@ -54,5 +54,19 @@ namespace WpfVideoMediaElement
         {
             VideoElement.Stop();
         }
+
+        private void ButtonBase3_OnClick(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Forms.OpenFileDialog dialog = new System.Windows.Forms.OpenFileDialog();
+            //该值确定是否可以选择多个文件,当前不然多选
+            dialog.Multiselect = false;
+            dialog.Title = "请选择文件夹";
+            dialog.Filter = "所有文件(*.*)|*.*";
+            if (dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                var path = dialog.FileName;
+                UrlTextBox.Text = path;
+            }
+        }
     }
 }

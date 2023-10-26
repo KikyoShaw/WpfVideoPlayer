@@ -22,7 +22,13 @@ namespace WpfVideoFfmpegPlayer
         private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
         {
             var urlPath = UrlTextBox?.Text;
+            //var urlPath = @"E:\shaw\demo\WPF-demo\ImageFileType\ImageFileType\test-images\Gif\kumin.gif";
+            //var urlPath = @"D:\WXWork\16888554\Cache\File\2022-08\1111.webp";
             this.player1.Play(urlPath);
+        }
+
+        private void ButtonBase1_OnClick(object sender, RoutedEventArgs e)
+        {
         }
     }
 }
